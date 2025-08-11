@@ -1,11 +1,11 @@
-# 📱 Apiogren
+#  Apiogren
 
 Google Haberler RSS ve JSONPlaceholder API'den veri çeken, **Jetpack Compose** ile yazılmış örnek Android uygulaması.  
 Proje; **Retrofit**, **OkHttp**, **Coroutines**, **Flow**, **ViewModel** ve **XmlPullParser** kullanımını gösterir.
 
 ---
 
-## 🚀 Özellikler
+##  Özellikler
 - Google News RSS üzerinden **manşetler** ve **arama**
 - JSONPlaceholder API’den **post listesi** ve **tekil post**
 - **Jetpack Compose + Material 3** UI
@@ -14,7 +14,7 @@ Proje; **Retrofit**, **OkHttp**, **Coroutines**, **Flow**, **ViewModel** ve **Xm
 
 ---
 
-## 📦 Bağımlılıklar (Gradle)
+##  Bağımlılıklar (Gradle)
 
 ```gradle
 // Kotlin
@@ -43,11 +43,12 @@ implementation "com.squareup.okhttp3:logging-interceptor:4.11.0"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
 ```
-🔗 API’ler
+API’ler
 Google News RSS – https://news.google.com/rss
+
 JSONPlaceholder – https://jsonplaceholder.typicode.com
 ```
-📂 Proje Yapısı
+* Proje Yapısı
 com.seninadiniz.apiogren
 │
 ├── data/
@@ -72,7 +73,7 @@ com.seninadiniz.apiogren
 │
 └── MainActivity.kt
 ```
-### 📜 Örnek Kodlar
+### Örnek Kodlar
 
 
 # Retrofit – Google News RSS
